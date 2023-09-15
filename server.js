@@ -18,6 +18,9 @@ const app = express();
 
 app.use(express.json());
 
+
+const PORT = 3000 || process.env.PORT;
+
 app.listen(PORT, () => {
   console.log(`server currently running at ${PORT}`);
 });
@@ -33,4 +36,3 @@ app.patch("/api/:id", updatePerson);
 
 app.delete("/api/:id", deletePerson);
 
-const PORT = 3000 || process.env.PORT;
