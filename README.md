@@ -5,15 +5,15 @@ This api can used for creating new individual details and storing them in the da
 ## DIFFERENT ENDPOINTS
 
 1. Get all persons(GET)
-   https://stage.cyclic.cloud//api
+   https://stage.cyclic.cloud/api
 2. Get a specific person (GET)
-   https://stage.cyclic.cloud//api/:id
+   https://stage.cyclic.cloud/api/:id
 3. Add new person
-   https://stage.cyclic.cloud//api/:person
+   https://stage.cyclic.cloud/api/:person
 4. Update a specific user(PATCH)
-   https://stage.cyclic.cloud//api/:id
+   https://stage.cyclic.cloud/api/:id
 5. Delete a specific user(POST)
-  https://stage.cyclic.cloud/ /api/:id
+  https://stage.cyclic.cloud/api/:id
 
 ### LINK TO UML DIAGRAM
 [UML-LINK](https://drive.google.com/file/d/12-S6neQSz2Ny44Ne2d_6uwuo9fn7Nxpk/view)
