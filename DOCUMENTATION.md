@@ -1,6 +1,19 @@
+# API USAGE
+1. GET : To get a resource
+2. POST: To create a resource
+3. PATCH: To update a resource 
+4. DELETE: To delete a resource
 
-
-### API USAGE
+## SAMPLE USAGE OF API
+1. getAll 
+/api
+{
+	"success": true,
+	"messgae": "All persons successfully retrieved",
+	"data": {
+		"persons": []
+	}
+}
 
 
 #### INSTRUCTION FOR SETTING UP SERVER LOCALLY
