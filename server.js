@@ -2,7 +2,6 @@ const { join } = require("path");
 
 const Db = require(join(__dirname, ".", "db"));
 
-Db();
 
 const {
   createPerson,
@@ -23,9 +22,11 @@ app.use(express.json());
 
 const PORT = process.env.PORT | 3000;
 
-app.listen(PORT, () => {
-  console.log(`server currently running at ${PORT}`);
-});
+Db().then(()=>{
+  app.listen(PORT, () => {
+    console.log(`server currently running at ${PORT}`);
+  });
+})
 
 app.get("/api", getAllPersons);
 
