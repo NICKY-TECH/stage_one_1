@@ -15,6 +15,9 @@ This api can used for creating new individual details and storing them in the da
 5. Delete a specific user(POST)
    /api/:id
 
-## WARNING
+### LINK TO UML DIAGRAM
+[UML-LINK](https://drive.google.com/file/d/12-S6neQSz2Ny44Ne2d_6uwuo9fn7Nxpk/view)
+
+#### WARNING
 
 For some development reasons \_ID search does not work with the getAll, getSpecific and deleteSpeicific routes

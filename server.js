@@ -18,14 +18,6 @@ const app = express();
 
 app.use(express.json());
 
-
-const PORT = process.env.PORT | 3000;
-
-app.listen(PORT, () => {
-  console.log(`server currently running at ${PORT}`);
-});
-
-
 app.get("/api", getAllPersons);
 
 app.get("/api/:id", getPerson);
@@ -35,4 +27,14 @@ app.post("/api/:person", createPerson);
 app.patch("/api/:id", updatePerson);
 
 app.delete("/api/:id", deletePerson);
+
+
+const PORT = process.env.PORT | 3000;
+
+app.listen(PORT, () => {
+  console.log(`server currently running at ${PORT}`);
+});
+
+
+
 
