@@ -7,6 +7,7 @@ const Db = () => {
     .connect(process.env.MONGOURL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
+      listen
     })
     .then(() => {
       console.log("running");
