@@ -16,7 +16,7 @@
 }
 
 
-#### INSTRUCTION FOR SETTING UP SERVER LOCALLY
+#### INSTRUCTION FOR SETTING UP SERVER LOCAL
 
 1. go to your terminal and type npm install
 2. creat a .env file and add a link to a database created on your mongodb atlas account
