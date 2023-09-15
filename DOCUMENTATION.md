@@ -5,8 +5,7 @@
 4. DELETE: To delete a resource
 
 ## SAMPLE USAGE OF API
-1. getAll 
-/api
+1. [getAll](https://stage.cyclic.cloud/api)
 {
 	"success": true,
 	"messgae": "All persons successfully retrieved",
