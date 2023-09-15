@@ -6,7 +6,7 @@ This api can used for creating new individual details and storing them in the da
 
 1. Get all persons(GET)
    https://stage.cyclic.cloud//api
-2.Get a specific person (GET)
+2. Get a specific person (GET)
    https://stage.cyclic.cloud//api/:id
 3. Add new person
    https://stage.cyclic.cloud//api/:person
