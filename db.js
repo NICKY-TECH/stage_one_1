@@ -2,7 +2,7 @@ const path = require("path");
 require("dotenv").config({ path: path.join(__dirname, '.', ".env") });
 const mongoose = require("mongoose");
 
-const Db = () => {
+const Db = async() => {
   mongoose
     .connect(process.env.MONGOURL, {
       useNewUrlParser: true,
