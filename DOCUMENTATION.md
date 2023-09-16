@@ -15,7 +15,7 @@
    "persons": []
    }
    }
-2. EXpected field for the creation of a person
+2. EXpected fields for the creation of a person
    {
    age: 10,
    name: faith,
