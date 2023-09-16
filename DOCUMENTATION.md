@@ -1,19 +1,26 @@
 # API USAGE
+
 1. GET : To get a resource
 2. POST: To create a resource
-3. PATCH: To update a resource 
+3. PATCH: To update a resource
 4. DELETE: To delete a resource
 
 ## SAMPLE USAGE OF API
-1. [getAll](https://stage.cyclic.cloud/api)
-{
-	"success": true,
-	"messgae": "All persons successfully retrieved",
-	"data": {
-		"persons": []
-	}
-}
 
+1. [getAll](https://stage.cyclic.cloud/api)
+   {
+   "success": true,
+   "messgae": "All persons successfully retrieved",
+   "data": {
+   "persons": []
+   }
+   }
+2. EXpected field for the creation of a person
+   {
+   age: 10,
+   name: faith,
+   gender: femaile
+   }
 
 #### INSTRUCTION FOR SETTING UP SERVER LOCAL
 
@@ -37,5 +44,4 @@ For some development reasons \_ID search does not work with the getAll, getSpeci
 4. Update a specific user(PATCH)
    https://stage.cyclic.cloud/api/:id
 5. Delete a specific user(POST)
-  https://stage.cyclic.cloud/api/:id
-
+   https://stage.cyclic.cloud/api/:id
